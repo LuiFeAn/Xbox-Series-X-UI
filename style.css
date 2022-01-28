@@ -1,0 +1,108 @@
+body{
+    background:url(https://wallpapercave.com/wp/wp14646.jpg);
+    background-size:cover;
+    user-select: none;
+    font-family: sans-serif;
+    margin-left:35px;
+    overflow: hidden;
+    transition: 1s;
+}
+ul{
+    display: flex;
+    gap:15px;
+    border-radius:10px;
+    padding:5px;
+    text-align: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    transition: 1s;
+    cursor: pointer;
+}
+li:hover{
+    color:rgba(0, 0, 0, 0.788);
+}
+.UI{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.user-container{
+    display: flex;
+    justify-content: flex-start;
+    color:white;
+    margin-top:30px;
+    font-weight: bold;
+    background:rgba(0, 0, 0, 0.651);
+    align-items: center;
+    padding:8px;
+    border-radius:10px;
+    gap:14px;
+}
+.user-container #name-and-coins{
+    display: flex;
+    flex-direction: column;
+    margin-top:-11px;
+}
+.coin-icon{
+    margin-top:-10px;
+}
+#coins-icon{
+    width:20px;
+    background-color:white;
+    border-radius:100%;
+    color:black;
+    text-align: center;
+}
+#coins{
+    margin-top:-15px;
+    margin-left:28px;
+}
+.user-container #user-img{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+}
+.ui-infos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left:85%;
+    position: fixed;
+}
+.game-info-container{
+   margin-left:10px;
+}
+.games-container{
+    display: flex;
+    gap:23px;
+    margin-top:30px;
+}
+.first-game{
+    width:280px;
+    border-radius:2px;
+    height:250px;
+}
+.game{
+    width:170px;
+    height:180px;
+    margin-top:70px;
+    border-radius:2px;
+}
+.selected-game{
+    outline:5px solid rgb(37, 204, 37);
+}
+.other-options-container{
+    display: flex;
+    gap:23px;
+}
+.other-icons img{
+    width:280px;
+    cursor: pointer;
+    height:170px;
+    border-radius:2px;
+}
